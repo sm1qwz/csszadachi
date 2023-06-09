@@ -12,37 +12,37 @@
 }
 
 .bbb.zzz {
-    color:red,
+    color: red;
 }
 
 h2.bbb.zzz {
-    color:chocolate,
-}
+    color: chocolate;
+    }
 #elem.bbb {
-    color:yellowgreen,
+    color :yellowgreen;
 }
-#elem1.bbb.zzz {
-    color:blueviolet,
+#eleml.bbb.zzz {
+    color :blueviolet;
 }
 h3#elem2.bbb {
-    color:darkblue,
+    color:darkblue;
 }
 h2.xxx {
-    color:rgb(255, 0, 115),
+    color: rgb (255, 0, 212);
 }
-div .yyy{
-    color:rgb(60, 3, 124),
+div .yyy {
+    color: rgb (255, 157, 0);
 }
-.bbb .yyy{
-    color:red,
+.bbb .yyy {
+    color: redi
 }
-.bbb .yyy.xxx{
-    color:rgb(0, 255, 132),
+.bbb .yyy .xxx {
+    color: rgb(76, 0, 255);
 }
-.bbb.yyy .xxx{
-    color:rgb(179, 255, 0),
+.bbb.yyy .xxx {
+    color: rgb(106, 0, 255);
 }
-.bbb .zzz .xxx{
-    color:firebrick,
+.bbb .zzz .xxx {
+    color: rgb(255, 0, 106);
 }
 
