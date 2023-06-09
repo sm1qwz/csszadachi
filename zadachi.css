@@ -11,12 +11,15 @@
     background: #0af;
 }
 
-#elem1 {
-    color:red;
+#hstyle h2{
+    color:brown
 }
-#elem2 {
-    color: green;
+#elem .hstyle{
+    color:fuchsia;
 }
-#elem3 {
-    color: blue;
+#elem p.hstyle {
+    color:aqua;
+}
+#element li.choose{
+    color: royalblue;
 }
