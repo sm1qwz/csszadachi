@@ -11,39 +11,30 @@
     background: #0af;
 }
 
-#block h1, #block h2, #block h3 {
-    text-align: center;
+.nnn p{
+    color: darkcyan;
+    text-align:right;
+}
+#block h2{
+    text-align:center;
     color: darkblue;
 }
-#block h1 {
-    font-size: 35px;
+.bbb{
+    color: mediumpurple;
 }
-#block h2 {
-    font-size: 25px;
+#block11 .xxx{
+    color: yellowgreen;
 }
-#block h3 {
-    font-size: 16px;
-    color: rgb(205, 21, 21);
+p.pstyle{
+    color: seagreen;
+    text-align:right;
 }
-
-#block h1.one, #block h2.two{
-text-align: right;
-color: coral;
+#block12 p.five{
+    color: blue;
 }
-#block h1.one{
-    font-size: 30px;
+p.one, h2.two{
+    color: crimson;
 }
-#block h2.two{
-    font-size: 20px;
+.last h2.first{
+    color: tomato;
 }
-
-.xxx .kkk, .eee h2.yyy, #block11 h2{
-    text-align: center;
-color:mediumslateblue;
-}
-
-.three h1.four, .five{
-    text-align: right;
-    color: magenta;
-}
-
