@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./zadachi.css">
-    <title>Использование id</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./zadachi.css" />
+    <title>Несколько селекторов слитно</title>
+  </head>
+  <body>
     <h1 class="hstyle">Студенты</h1>
-    <div id="hstyle">
-	<h2>Никита Киркицкий</h2>
-	<p>Клим Сорокин</p>
-	
-	<h2>Эмран Минзатов</h2>
-	<p>Мавиле Бекирова</p>
+    <!-- 1 -->
+    <p class="bbb zzz">Киркицкий Никита</p>
+    <br>
+    <!-- 2 -->
+    <h2 class="bbb zzz">Сорокин Клим</h2>
+    <br>
+    <!-- 3 -->
+    <h2 id="elem" class="bbb">Мавиле Бекирова</h2>
+    <br>
+    <!-- 4 -->
+    <h2 id="elem1" class="bbb zzz">Минзатов Эмран</h2>
+    <br>
+    <!-- 5 -->
+    <h3 id="elem2" class="bbb">Мустафаева Эльмаз</h3>
+    <br>
+    <!-- 6 -->
+    <h2 class="xxx bbb">Куропаткин Андрей</h2>
+    <br>
+    <!-- 7 -->
+    <div>
+    <h2 class="yyy">Владычин Валерий</h2>
+    </div>
+    <br>
+    <!-- 9 -->
+    <div class="bbb">
+    <h2 class="yyy">Руденко Никита</h2>
+    </div>
+    <br>
+    <!-- 11 -->
+    <div class="bbb">
+    <h2 class="yyy xxx">Руденко Валерий</h2>
+    </div>
+    <br>
+    <!-- 12 -->
+    <div class="bbb yyy">
+    <h2 class="xxx">Апкелямов Эрвин</h2>
+    </div>
+    <br>
+    <!-- 13 -->
+    <div class="bbb">
+<div class="zzz">
+    <h2 class="xxx">Темиров Эльдар</h2>
 </div>
-<h2>Эрвин Апкелямов</h2>
-<p>Мустафаева Эльмаз</p>
-<br>
-<br>
-<div id="elem">
-	<p class="hstyle">Отчислены</p>
-	<p class="hstyle">Не Отчислены</p>
-	
-	<ul>
-		<li class="hstyle">Никита Киркицкий</li>
-		<li class="hstyle">Клим Сорокин</li>
-		<li class="hstyle">Мавиле Бекирова</li>
-		<li>Эмран Минзатов</li>
-		<li>Мустафаева Эльмаз</li>
-	</ul>
-</div>
-<p class="hstyle">Никита Киркицкий</p>
-<br>
-<br>
-<div id="element">
-	<p class="choose">Отчислены</p>
-	<p class="choose">Не Отчислены</p>
-	
-	<ul>
-		<li class="choose">Никита Киркицкий</li>
-		<li class="choose">Клим Сорокин</li>
-		<li class="choose">Мавиле Бекирова</li>
-		<li>Эльмаз Мустафаева</li>
-		<li>Эрвин Апкелямов</li>
-	</ul>
-</div>
-<p class="choose">Студенты</p>
-</body>
+    </div>
+  </body>
 </html>

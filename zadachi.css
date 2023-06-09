@@ -11,15 +11,38 @@
     background: #0af;
 }
 
-#hstyle h2{
-    color:brown
+.bbb.zzz {
+    color:red,
 }
-#elem .hstyle{
-    color:fuchsia;
+
+h2.bbb.zzz {
+    color:chocolate,
 }
-#elem p.hstyle {
-    color:aqua;
+#elem.bbb {
+    color:yellowgreen,
 }
-#element li.choose{
-    color: royalblue;
+#elem1.bbb.zzz {
+    color:blueviolet,
 }
+h3#elem2.bbb {
+    color:darkblue,
+}
+h2.xxx {
+    color:rgb(255, 0, 115),
+}
+div .yyy{
+    color:rgb(60, 3, 124),
+}
+.bbb .yyy{
+    color:red,
+}
+.bbb .yyy.xxx{
+    color:rgb(0, 255, 132),
+}
+.bbb.yyy .xxx{
+    color:rgb(179, 255, 0),
+}
+.bbb .zzz .xxx{
+    color:firebrick,
+}
+
