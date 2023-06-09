@@ -11,15 +11,6 @@
     background: #0af;
 }
 
-#hstyle h2{
-    color:brown
-}
-#elem .hstyle{
-    color:fuchsia;
-}
-#elem p.hstyle {
-    color:aqua;
-}
-#element li.choose{
-    color: royalblue;
+.one.two.three{
+    color:rgb(0, 253, 144);
 }
