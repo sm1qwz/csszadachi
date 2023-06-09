@@ -11,26 +11,12 @@
     background: #0af;
 }
 
-.success {
+#elem1 {
+    color:red;
+}
+#elem2 {
     color: green;
 }
-.error {
-    color: red;
-}
-.large {
-    font-size: 30px;
-}
-.small {
-    font-size: 20px;
-}
-
-.one{
-    background: cadetblue;
-    color: wheat;
-}
-.two{
-    font-size: 20px;
-}
-.three{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#elem3 {
+    color: blue;
 }
