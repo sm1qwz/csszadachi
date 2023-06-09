@@ -11,30 +11,11 @@
     background: #0af;
 }
 
-.nnn p{
-    color: darkcyan;
-    text-align:right;
+h2{
+    font-size: 20px;
+    color: rgb(0, 252, 130);
 }
-#block h2{
-    text-align:center;
-    color: darkblue;
-}
-.bbb{
-    color: mediumpurple;
-}
-#block11 .xxx{
-    color: yellowgreen;
-}
-p.pstyle{
-    color: seagreen;
-    text-align:right;
-}
-#block12 p.five{
-    color: blue;
-}
-p.one, h2.two{
-    color: crimson;
-}
-.last h2.first{
-    color: tomato;
+h2{
+        font-style: italic;
+        color:rgb(0, 255, 247);
 }
