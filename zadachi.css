@@ -11,38 +11,39 @@
     background: #0af;
 }
 
-.bbb.zzz {
-    color: red;
+#block h1, #block h2, #block h3 {
+    text-align: center;
+    color: darkblue;
+}
+#block h1 {
+    font-size: 35px;
+}
+#block h2 {
+    font-size: 25px;
+}
+#block h3 {
+    font-size: 16px;
+    color: rgb(205, 21, 21);
 }
 
-h2.bbb.zzz {
-    color: chocolate;
-    }
-#elem.bbb {
-    color :yellowgreen;
+#block h1.one, #block h2.two{
+text-align: right;
+color: coral;
 }
-#eleml.bbb.zzz {
-    color :blueviolet;
+#block h1.one{
+    font-size: 30px;
 }
-h3#elem2.bbb {
-    color:darkblue;
+#block h2.two{
+    font-size: 20px;
 }
-h2.xxx {
-    color: rgb (255, 0, 212);
+
+.xxx .kkk, .eee h2.yyy, #block11 h2{
+    text-align: center;
+color:mediumslateblue;
 }
-div .yyy {
-    color: rgb (255, 157, 0);
-}
-.bbb .yyy {
-    color: redi
-}
-.bbb .yyy .xxx {
-    color: rgb(76, 0, 255);
-}
-.bbb.yyy .xxx {
-    color: rgb(106, 0, 255);
-}
-.bbb .zzz .xxx {
-    color: rgb(255, 0, 106);
+
+.three h1.four, .five{
+    text-align: right;
+    color: magenta;
 }
 
