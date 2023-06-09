@@ -1,0 +1,36 @@
+.hstyle {
+    padding: 10px;
+    margin: 10px;
+    background: #08c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.hstyle:hover {
+    background: #0af;
+}
+
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+.large {
+    font-size: 30px;
+}
+.small {
+    font-size: 20px;
+}
+
+.one{
+    background: cadetblue;
+    color: wheat;
+}
+.two{
+    font-size: 20px;
+}
+.three{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
