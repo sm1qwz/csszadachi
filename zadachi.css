@@ -11,25 +11,25 @@
     background: #0af;
 }
 
-.first, .second, .third, .fourth{
-    border-width: 5px;
+.first, .second, .third, .fourth {
     width: 190px;
     height: 140px;
     text-align: center;
 }
-.first{
-    border-style: ridge;
-    border-color: blue;
+.first {
+    border:2px solid red;
 }
+
 .second {
-    border-style: dotted;
-    border-color: red;
+    border: 2px dotted blue;
+
 }
+
 .third {
-    border-style: dashed;
-    border-color: orange;
+    border: 3px dashed green;
+
 }
+
 .fourth {
-    border-style:double;
-    border-color: blue;
+    border: 4px double orange;
 }
