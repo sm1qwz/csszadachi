@@ -11,16 +11,25 @@
     background: #0af;
 }
 
-.first{
-    width: 200px;
-    height: 200px;
-    background-color:mediumslateblue;
-}
-
-.second{
-    width: 250px;
-    height: 150px;
-    background-color: darkgreen;
+.first, .second, .third, .fourth{
+    border-width: 5px;
+    width: 190px;
+    height: 140px;
     text-align: center;
-    color: white;
+}
+.first{
+    border-style: ridge;
+    border-color: blue;
+}
+.second {
+    border-style: dotted;
+    border-color: red;
+}
+.third {
+    border-style: dashed;
+    border-color: orange;
+}
+.fourth {
+    border-style:double;
+    border-color: blue;
 }
