@@ -11,30 +11,35 @@
     background: #0af;
 }
 
-a {
-    color: red;
+li:first-child{
+    color: rgb(106, 201, 12);
 }
-a:hover {
-    text-decoration: none;
+li:last-child{
+    color: indianred;
 }
-
-a.two {
-    color: rgb(34, 213, 6);
-}
-a:hover.two {
-    text-decoration: none;
+li:nth-child(3){
+    color:mediumslateblue;
 }
 
-#block a.three {
-    color: rgb(60, 0, 255);
+.two:nth-child(even){
+    color: seagreen;
 }
-#block a.three:hover {
-    text-decoration: none;
+.two:nth-child(odd){
+    color: blueviolet;
 }
 
-.block a.four {
-    color:lightseagreen;
+.three:nth-last-child(2){
+color: lightseagreen;
 }
-.block a.four:hover {
-    text-decoration: none;
+
+.four:only-child{
+    color: darkred;
+}
+
+.empty:empty{
+    border: 1px solid blueviolet;
+}
+li.empty{
+    border: 1px solid black;
+    margin: 10px;
 }
