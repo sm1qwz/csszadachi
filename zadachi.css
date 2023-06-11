@@ -11,25 +11,20 @@
     background: #0af;
 }
 
-.first, .second, .third, .fourth {
+.first, .second {
     width: 190px;
     height: 140px;
     text-align: center;
 }
-.first {
-    border:2px solid red;
+.first{
+    border-left: 3px solid orange;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid red;
+    border-right: 3px solid green;
 }
-
 .second {
-    border: 2px dotted blue;
-
-}
-
-.third {
-    border: 3px dashed green;
-
-}
-
-.fourth {
-    border: 4px double orange;
+    border-left: 3px solid red;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-right: 3px dotted green;
 }
