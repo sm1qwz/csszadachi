@@ -11,9 +11,16 @@
     background: #0af;
 }
 
-li:not(.elem){
-    color: firebrick;
+.first{
+    width: 200px;
+    height: 200px;
+    background-color:mediumslateblue;
 }
-.elem:not(:first-child, :last-child){
-    color: darkseagreen;
+
+.second{
+    width: 250px;
+    height: 150px;
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
 }
