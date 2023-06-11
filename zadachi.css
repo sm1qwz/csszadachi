@@ -11,20 +11,9 @@
     background: #0af;
 }
 
-g:first-of-type{
-    color: darkgoldenrod;
+li:not(.elem){
+    color: firebrick;
 }
-h2:last-of-type{
-    color: darkmagenta;
-}
-
-p:nth-of-type(2){
-    color: rgb(182, 8, 8);
-}
-p:nth-last-of-type(2){
-color: darkturquoise;
-}
-
-h2:only-of-type{
-    color: deeppink;
+.elem:not(:first-child, :last-child){
+    color: darkseagreen;
 }
