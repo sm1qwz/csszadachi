@@ -11,20 +11,25 @@
     background: #0af;
 }
 
-.first, .second {
-    width: 190px;
-    height: 140px;
+.first, .second, .third {
     text-align: center;
 }
+
 .first{
-    border-left: 3px solid orange;
-    border-top: 3px solid blue;
-    border-bottom: 3px solid red;
-    border-right: 3px solid green;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 10px;
 }
-.second {
-    border-left: 3px solid red;
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue;
-    border-right: 3px dotted green;
+.second{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #22d059;
+}
+.third{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid green;
 }
