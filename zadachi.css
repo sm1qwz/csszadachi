@@ -11,12 +11,14 @@
     background: #0af;
 }
 
-.square{
-    list-style-type: square;
+.lower {
+    list-style-type:lower-alpha;
 }
-.circle{
-    list-style-type: circle;
+
+.greek {
+    list-style-type:lower-greek;
 }
-.none{
-    list-style-type: none;
+
+.upper {
+    list-style-type:upper-alpha;
 }
