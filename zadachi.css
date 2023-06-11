@@ -11,14 +11,29 @@
     background: #0af;
 }
 
-.lower {
-    list-style-type:lower-alpha;
+.first{
+    border: 2px dashed blue;
+    width: 300px;
+}
+.second{
+    height: 200px;
+    border: 2px solid orange;
+    margin: 40px;
+    text-align: center;
 }
 
-.greek {
-    list-style-type:lower-greek;
+.first1{
+    border: 2px dashed blue;
+    width: 300px;
 }
-
-.upper {
-    list-style-type:upper-alpha;
+.second2{
+    border: 2px dashed green;
+    height: 200px;
+    margin: 20px;
+}
+.third{
+    height: 150px;
+    border: 2px solid red;
+    margin: 20px;
+    text-align: center;
 }
