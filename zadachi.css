@@ -11,24 +11,25 @@
     background: #0af;
 }
 
-g[title]{
-    color: darkgreen;
+a:link {
+    color: blue;
 }
-p[title]{
-    color: dodgerblue;
+a:visited {
+    color: green;
 }
-p[title = hey]{
-color: rgb(136, 24, 216);
+a:hover {
+    text-decoration: none;
+    color: red;
 }
-a[href^="http://"]{
-    color: deeppink;
+a:active {
+    color: black;
 }
-a[href*=".html"] {
-    color:rgb(182, 64, 64);
+
+a.two{
+    color: blue;
+    text-decoration: none;
 }
-p[title~=hi] {
-    color: rgb(72, 216, 24);
-}
-[class|="top-top"]{
-    color: darkslateblue;
+a.two:hover{
+    color: red;
+    text-decoration-line: underline;
 }
