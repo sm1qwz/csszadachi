@@ -16,20 +16,20 @@
 }
 
 .first{
-    width: 100px;
-    height: 100px;
-    border: 2px solid green;
-    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px 40px 60px;
 }
-.second{
-    border-radius: 20px;
-    width: 100px;
-    height: 100px;
-    background-color: #22d059;
+.second {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px 10px 30px;
 }
-.third{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: 2px solid green;
+.third {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px 20px;
 }
