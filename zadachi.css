@@ -11,35 +11,20 @@
     background: #0af;
 }
 
-li:first-child{
-    color: rgb(106, 201, 12);
+g:first-of-type{
+    color: darkgoldenrod;
 }
-li:last-child{
-    color: indianred;
-}
-li:nth-child(3){
-    color:mediumslateblue;
+h2:last-of-type{
+    color: darkmagenta;
 }
 
-.two:nth-child(even){
-    color: seagreen;
+p:nth-of-type(2){
+    color: rgb(182, 8, 8);
 }
-.two:nth-child(odd){
-    color: blueviolet;
-}
-
-.three:nth-last-child(2){
-color: lightseagreen;
+p:nth-last-of-type(2){
+color: darkturquoise;
 }
 
-.four:only-child{
-    color: darkred;
-}
-
-.empty:empty{
-    border: 1px solid blueviolet;
-}
-li.empty{
-    border: 1px solid black;
-    margin: 10px;
+h2:only-of-type{
+    color: deeppink;
 }
