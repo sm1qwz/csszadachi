@@ -11,6 +11,24 @@
     background: #0af;
 }
 
-main div *, main section *{
-    color: rgb(0, 255, 76);
+g[title]{
+    color: darkgreen;
+}
+p[title]{
+    color: dodgerblue;
+}
+p[title = hey]{
+color: rgb(136, 24, 216);
+}
+a[href^="http://"]{
+    color: deeppink;
+}
+a[href*=".html"] {
+    color:rgb(182, 64, 64);
+}
+p[title~=hi] {
+    color: rgb(72, 216, 24);
+}
+[class|="top-top"]{
+    color: darkslateblue;
 }
