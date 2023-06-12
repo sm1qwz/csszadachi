@@ -11,60 +11,13 @@
     background: #0af;
 }
 
-.elem1, .elem2, .elem3, .elem4, .elem5, .elem6, .elem7, .elem8, .elem9{
-    position: absolute;
-    width: 40px;
-        height: 40px;
+div {
+    width: 600px;
+    text-align: justify;
 }
-
-.elem1{
-    top: 60px;
-    left: 60px;
-    background-color: #ff8888;
+.one{
+    float:right;
 }
-.elem2 {
-    top: 80px;
-    left: 80px;
-    background-color: #7e89eb;
-    z-index: 3;
-}
-.elem3 {
-    top: 100px;
-    left: 100px;
-    background-color: #39ef8b;
-}
-
-.elem4 {
-    top: 150px;
-    left: 60px;
-    background-color: #ff8888;
-    z-index: 3;
-}
-.elem5 {
-    top: 170px;
-    left: 80px;
-    background-color: #7e89eb;
-    z-index: 2;
-}
-.elem6 {
-    top: 190px;
-    left: 100px;
-    background-color: #39ef8b;
-}
-
-.elem7 {
-    top: 240px;
-    left: 60px;
-    background-color: #ff8888;
-}
-.elem8 {
-    top: 260px;
-    left: 80px;
-    background-color: #7e89eb;
-    z-index: -1;
-}
-.elem9 {
-    top: 280px;
-    left: 100px;
-    background-color: #39ef8b;
+.two {
+    float: left;
 }
