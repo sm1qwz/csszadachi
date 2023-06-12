@@ -11,15 +11,21 @@
     background: #0af;
 }
 
-.parent{
-    border:1px solid green;
+.parent {
+    border: 1px solid green;
     width: 400px;
     padding: 10px;
 }
-p{
+p {
     text-align: justify;
 }
-.child{
+.child {
+    border: 1px solid green;
+    width: 80px;
+    height: 80px;
+    float: right;
+}
+.child1 {
     border: 1px solid green;
     width: 80px;
     height: 80px;
