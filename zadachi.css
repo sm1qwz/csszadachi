@@ -11,54 +11,81 @@
     background: #0af;
 }
 
-.parent{
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 200px;
-    border: 1px solid red;
-}
-.child {
-    width: 70px;
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .colorOne, .colorTwo, .colorThree{
+    width: 50px;
     height: 50px;
-    border: 1px solid green;
+    position: absolute;
 }
 
-.parent1 {
-    display: flex;
-    justify-content: space-between;
-    width: 500px;
-    height: 200px;
+.one {
     border: 1px solid red;
-}
-.child1 {
-    width: 70px;
-    height: 50px;
-    border: 1px solid green;
+    top: 70px;
+    left: 70px;
 }
 
-.parent2 {
-    display: flex;
-    justify-content: space-around;
-    width: 500px;
-    height: 200px;
-    border: 1px solid red;
-}
-.child2 {
-    width: 70px;
-    height: 50px;
-    border: 1px solid green;
+.two {
+    border: 1px solid blue;
+    top: 140px;
+    left: 140px;
 }
 
-.parent3 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 500px;
-    height: 200px;
-    border: 1px solid red;
-}
-.child3 {
-    width: 70px;
-    height: 50px;
+.three {
     border: 1px solid green;
+    top: 210px;
+    left: 210px;
+}
+
+.four {
+    border: 1px solid red;
+    top: 300px;
+    left: 70px;
+}
+
+.five {
+    border: 1px solid blue;
+    top: 300px;
+    left: 140px;
+}
+
+.six {
+    border: 1px solid green;
+    top: 300px;
+    left: 210px;
+}
+
+.seven {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    position: absolute;
+    top: 380px;
+    left: 70px;
+}
+
+.eight {
+    border: 1px solid blue;
+    top: 410px;
+    left: 100px;
+}
+.nine {
+    border: 1px solid green;
+    top: 440px;
+    left: 130px;
+}
+.colorOne {
+    background-color: red;
+    top: 520px;
+    left: 70px;
+}
+
+.colorTwo {
+    background-color: blue;
+    top: 550px;
+    left: 100px;
+}
+
+.colorThree {
+    background-color: green;
+    top: 580px;
+    left: 130px;
 }
