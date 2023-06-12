@@ -11,23 +11,17 @@
     background: #0af;
 }
 
-.first{
-    border: 1px solid red;
-    text-align: justify;
-    padding: 1px 15px 20px 25px;
-    width: 300px;
+#elem1 {
+    width: 100px;
+    height: 100px;
+    background: #b28df7;
+    margin-bottom: 20px;
 }
 
-.second {
-    border: 1px solid red;
-    text-align: justify;
-    padding: 40px 20px;
-    width: 300px;
-}
-
-.third {
-    border: 1px solid red;
-    text-align: justify;
-    padding: 1px 40px 20px;
-    width: 300px;
+#elem2 {
+    width: 100px;
+    height: 100px;
+    background: #b28df7;
+    border: 10px solid rgb(0, 0, 128);
+    box-sizing: border-box;
 }
