@@ -11,15 +11,9 @@
     background: #0af;
 }
 
-p {
-    display: inline;
-    width: 160px;
-    height: 160px;
-    border: 1px solid blueviolet;
-}
-a {
-    display: block;
+div {
     width: 100px;
     height: 100px;
     border: 1px solid blueviolet;
+    display: inline-block;
 }
