@@ -11,25 +11,23 @@
     background: #0af;
 }
 
-#parent {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin: 50px auto;
-    border: 1px solid green;
+h2{
+    display: block;
+    background: rgb(201, 218, 11);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+.two{
+    border: 2px solid rgb(201, 218, 11);
+    padding: 20px;
+    margin: 75px auto;
+    width: 700px;
+    text-align: justify;
+    font: 16px Arial;
 
-#child {
-    position: absolute;
-    left: -40px;
-    width: 20px;
-    height: 20px;
-    border: 1px solid red;
-}
-#child1 {
-    position: absolute;
-    right: -40px;
-    width: 20px;
-    height: 20px;
-    border: 1px solid red;
 }
