@@ -11,17 +11,28 @@
     background: #0af;
 }
 
-#elem1 {
-    width: 100px;
-    height: 100px;
-    background: #b28df7;
-    margin-bottom: 20px;
+p{
+    width: 160px;
+    height: 160px;
+    border: 1px solid blueviolet;
 }
-
-#elem2 {
-    width: 100px;
-    height: 100px;
-    background: #b28df7;
-    border: 10px solid rgb(0, 0, 128);
-    box-sizing: border-box;
+b {
+    width: 160px;
+    height: 160px;
+    border: 1px solid blueviolet;
+}
+h2 {
+    width: 160px;
+    height: 160px;
+    border: 1px solid blueviolet;
+}
+i {
+    width: 160px;
+    height: 160px;
+    border: 1px solid blueviolet;
+}
+a {
+    width: 160px;
+    height: 160px;
+    border: 1px solid blueviolet;
 }
