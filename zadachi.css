@@ -11,26 +11,13 @@
     background: #0af;
 }
 
-.parent{
+.parent {
+    padding: 10px 0;
     border: 1px solid red;
-    width: 500px;
-    height: 350px;
+    text-align: center;
 }
-.child1, .child2, .child3{
-    border: 1px solid green;
-}
-.child1{
-    margin: 10px auto;
-    width: 100px;
-    height: 100px;
-}
-.child2 {
-    margin: 10px auto;
-    width: 200px;
-    height: 100px;
-}
-.child3 {
-    margin: 10px auto;
-    width: 300px;
-    height: 100px;
+.parent1 {
+    padding: 10px 5px;
+    border: 1px solid red;
+    text-align: right;
 }
