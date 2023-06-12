@@ -11,17 +11,17 @@
     background: #0af;
 }
 
-div{
-    width: 600px;
-    border: 1px solid blue;
+.parent{
+    border:1px solid green;
+    width: 400px;
+    padding: 10px;
+}
+p{
     text-align: justify;
-    padding: 15px;
 }
-.one{
-    float: left;
-    margin: 15px;
-}
-.two{
+.child{
+    border: 1px solid green;
+    width: 80px;
+    height: 80px;
     float: right;
-    margin: 15px;
 }
