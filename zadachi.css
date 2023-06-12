@@ -11,13 +11,17 @@
     background: #0af;
 }
 
-div {
+div{
     width: 600px;
+    border: 1px solid blue;
     text-align: justify;
+    padding: 15px;
 }
 .one{
-    float:right;
-}
-.two {
     float: left;
+    margin: 15px;
+}
+.two{
+    float: right;
+    margin: 15px;
 }
