@@ -11,28 +11,15 @@
     background: #0af;
 }
 
-p{
-    width: 160px;
-    height: 160px;
-    border: 1px solid blueviolet;
-}
-b {
-    width: 160px;
-    height: 160px;
-    border: 1px solid blueviolet;
-}
-h2 {
-    width: 160px;
-    height: 160px;
-    border: 1px solid blueviolet;
-}
-i {
+p {
+    display: inline;
     width: 160px;
     height: 160px;
     border: 1px solid blueviolet;
 }
 a {
-    width: 160px;
-    height: 160px;
+    display: block;
+    width: 100px;
+    height: 100px;
     border: 1px solid blueviolet;
 }
