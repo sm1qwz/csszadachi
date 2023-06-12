@@ -12,23 +12,10 @@
 }
 
 .first{
-    padding: 40px;
-    width: 300px;
     border: 1px solid red;
-    text-align: justify;
-}
-
-.second {
-    padding: 20px;
-    width: 500px;
-    border: 1px solid green;
-    text-align: justify;
-}
-
-.third{   
-    padding: 10px;
-    margin: 40px;
-    width: 300px;
-    border: 1px solid red;
-    text-align: justify;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
