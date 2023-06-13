@@ -14,14 +14,16 @@
 #wrapper {
     width: 800px;
     margin: 50px auto;
-    border: 1px solid black;
+    border: 1px solid rgb(236, 151, 40);
 }
+
 #menu {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 20px;
-    background-color: #484848;
+    background-color: orange;
 }
+
 #menu .one {
     margin: 0 5px;
     padding: 15px 25px;
@@ -29,26 +31,33 @@
     color: #fff;
     font: bold 14px Arial;
 }
+
 #menu .one:hover,
 #menu .one.active {
-    color: #484848;
+    color: orange;
     background-color: #fff;
 }
+
 #content {
     padding: 0 30px 20px;
+    color: orange;
 }
+
 #content h1 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
 }
+
 #content p {
     padding: 1 10px;
     margin-bottom: 2px;
     font: 15px/1.3 Arial;
     text-align: justify;
 }
-.link{
-text-decoration: none;
-font-weight: bold;
+
+.link {
+    color: chocolate;
+    text-decoration: none;
+    font-weight: bold;
 }
