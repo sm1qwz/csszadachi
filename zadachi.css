@@ -11,28 +11,39 @@
     background: #0af;
 }
 
-#wrapper {
-    width: 800px;
-    margin: 50px auto;
-}
-.one, .two, .three{
-    border: 1px solid black;
-    margin: 20px;
-}
-#content {
-    padding: 0 30px 20px;
-    color: black;
+* {
+    box-sizing: border-box;
 }
 
-h1 {
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin-bottom: 30px;
+}
+
+.wrapper.line1 {
+    background-color: #008040;
+    color: white;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 10px;
 }
-
-#content p {
-    padding: 1 10px;
-    margin-bottom: 2px;
-    font: 15px/1.3 Arial;
-    text-align: justify;
+.wrapper.line2 {
+    background-color: #ff0e06;
+    color: white;
+    text-align: center;
+}
+.wrapper.line3 {
+    background-color: rgb(221, 145, 4);
+    color: white;
+    text-align: center;
+}
+.center {
+    width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.center1{
+text-align: justify;
 }
