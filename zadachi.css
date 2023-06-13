@@ -15,35 +15,38 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
+#wrapper {
+    width: 1000px;
+    margin: 30px auto;
+    border: 1px solid black;
 }
 
-.wrapper {
-    margin-bottom: 30px;
-}
-
-.wrapper.line1 {
-    background-color: #008040;
-    color: white;
-    text-align: center;
-}
-.wrapper.line2 {
-    background-color: #ff0e06;
-    color: white;
-    text-align: center;
-}
-.wrapper.line3 {
-    background-color: rgb(221, 145, 4);
-    color: white;
-    text-align: center;
-}
-.center {
-    width: 800px;
+#header {
+    height: 200px;
     padding: 20px;
-    margin: 0 auto;
-    text-align: center;
+    border: 1px solid black;
 }
-.center1{
-text-align: justify;
+
+#container {
+    display: flex;
+}
+
+#content {
+    width: 780px;
+    height: 700px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#sidebar {
+    width: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#footer {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
 }
